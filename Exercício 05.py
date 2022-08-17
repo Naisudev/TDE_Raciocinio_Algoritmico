@@ -1,0 +1,2 @@
+productPrice = float(input("Digite o preço do produto: "))
+print("Você pode pagar em três parcelas de R$",((productPrice+(productPrice*0.05))/3),"com juros, ou duas parcelas de R$", productPrice/2, "sem juros, ou R$", (productPrice-(productPrice*0.05)), "à vista com 5% de desconto!")
